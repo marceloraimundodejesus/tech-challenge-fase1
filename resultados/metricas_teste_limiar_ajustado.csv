@@ -1,0 +1,2 @@
+modelo,limiar,acuracia,precisao,recall,f1,roc_auc
+Random Forest com limiar ajustado,0.46,0.721,0.573,0.796,0.667,0.814

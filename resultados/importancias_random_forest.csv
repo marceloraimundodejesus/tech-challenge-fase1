@@ -1,0 +1,9 @@
+variavel,importancia_impureza,importancia_permutacao,desvio_permutacao
+Glicose,0.373,0.091,0.023
+IMC,0.188,0.045,0.018
+Idade,0.132,0.031,0.01
+Insulina,0.112,0.008,0.009
+Histórico familiar,0.064,0.009,0.005
+Dobra cutânea,0.047,0.001,0.004
+Gestações,0.045,0.007,0.004
+Pressão diastólica,0.038,-0.004,0.003

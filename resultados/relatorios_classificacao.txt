@@ -1,0 +1,33 @@
+Regressão Logística
+              precision    recall  f1-score   support
+
+Sem diabetes      0.802     0.730     0.764       100
+Com diabetes      0.571     0.667     0.615        54
+
+    accuracy                          0.708       154
+   macro avg      0.687     0.698     0.690       154
+weighted avg      0.721     0.708     0.712       154
+
+
+Random Forest
+              precision    recall  f1-score   support
+
+Sem diabetes      0.839     0.730     0.781       100
+Com diabetes      0.597     0.741     0.661        54
+
+    accuracy                          0.734       154
+   macro avg      0.718     0.735     0.721       154
+weighted avg      0.754     0.734     0.739       154
+
+
+Random Forest com limiar ajustado
+              precision    recall  f1-score   support
+
+Sem diabetes      0.861     0.680     0.760       100
+Com diabetes      0.573     0.796     0.667        54
+
+    accuracy                          0.721       154
+   macro avg      0.717     0.738     0.713       154
+weighted avg      0.760     0.721     0.727       154
+
+

@@ -1,0 +1,13 @@
+{
+  "regressao_logistica": {
+    "modelo__C": 0.1,
+    "modelo__class_weight": "balanced"
+  },
+  "random_forest": {
+    "modelo__class_weight": "balanced",
+    "modelo__max_depth": 4,
+    "modelo__min_samples_leaf": 10,
+    "modelo__n_estimators": 400
+  },
+  "limiar_random_forest": 0.46
+}
