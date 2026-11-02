@@ -200,10 +200,10 @@ Tudo roda com Docker.
 
 ```
 docker build -t tech-challenge-fase1 .
-docker run --rm -v "$(pwd)/resultados:/app/resultados" tech-challenge-fase1
+docker run --rm tech-challenge-fase1
 ```
 
-O README do repositório explica também como abrir o notebook pelo Docker e como rodar sem Docker. As versões das bibliotecas estão fixas no `requirements.txt` e todas as divisões usam `random_state=42`, então os números deste relatório se repetem em qualquer máquina.
+O README do repositório explica também como salvar os gráficos na sua máquina, como abrir o notebook pelo Docker e como rodar sem Docker. As versões das bibliotecas estão fixas no `requirements.txt` e todas as divisões usam `random_state=42`, então os números deste relatório se repetem em qualquer máquina.
 
 # 10. Conclusão
 
