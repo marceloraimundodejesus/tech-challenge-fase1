@@ -58,13 +58,25 @@ Construir a imagem
 docker build -t tech-challenge-fase1 .
 ```
 
-Rodar o pipeline completo. Os resultados aparecem na pasta `resultados` da sua máquina.
+Rodar o pipeline completo. Ele mostra cada etapa no terminal e termina com as métricas.
 
 ```bash
-docker run --rm -v "$(pwd)/resultados:/app/resultados" tech-challenge-fase1
+docker run --rm tech-challenge-fase1
 ```
 
-No Windows pelo PowerShell troque `$(pwd)` por `${PWD}`.
+Se quiser que os gráficos e as métricas gerados apareçam na pasta `resultados` da sua máquina, monte a pasta como volume.
+
+Linux, Mac ou PowerShell
+
+```bash
+docker run --rm -v "${PWD}/resultados:/app/resultados" tech-challenge-fase1
+```
+
+Git Bash no Windows (precisa do `MSYS_NO_PATHCONV=1` para o Git Bash não trocar o caminho)
+
+```bash
+MSYS_NO_PATHCONV=1 docker run --rm -v "$(pwd -W)/resultados:/app/resultados" tech-challenge-fase1
+```
 
 Abrir o notebook no navegador
 
